@@ -2,40 +2,54 @@
 <html>
   <head>
     <title>LeBron Church</title>
-    <link rel="stylesheet" href="style.css"/>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+     </script>
   </head>
 
-  <body>
+  <body class="bg-red-50 text-gray-800 p-4 font-sans">
     <!-- All content goes here -->
-    <div id="all-contents">
-      <nav>
-        <h1>LeBron Church</h1>
-        <ul id="nav-ul">
+    <div id="all-contents" class="max-w-4xl mx-auto">
+      <nav class="bg-red-500 p-4 rounded-lg mb-4 shadow-mb">
+        <div class="flex jstify-between items-center">
+        <h1 class="text-white text-2xl font-bold">LeBron Church</h1>
+        <ul class="flex space-x-4">
           <li class="nav-li">
-            <a href="index.html">Home</a>
+            <a href="index.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Home</a>
             <li class="nav-li">
-              <a href="portfolio.html">Portfolio</a>
+              <a href="portfolio.html" class="text-whote hover:text-blue-200 px-3 py-2 rounded">Portfolio</a>
             </li>
           </li>
         </ul>
       </nav>
-      <main>
-        <div class="sidebar">
-          <img class="sidebar-img" src="https://www.usatoday.com/gcdn/-mm-/059bfe144f24bbdcb3a9d0fe4c1b1a5a17aff6d5/c=0-1167-1881-3675/local/-/media/2018/06/01/USATODAY/USATODAY/636634199812559465-USATSI-10866071.jpg?width=660&height=880&fit=crop&format=pjpg&auto=webp">
-        </div>
-        <div class="content">
-          <h2>Chris Marcello</h2>
-          <p>Student at Mandeville High</p>
-          <div id="interests">
-            <h3>Interests</h3>
-            <ul>
-              <li>LeBron James</li>
-              <li>Bronny James</li>
-              <li>Bryce James</li>
-            </ul>
-          </div>
-        </div>
-      </main>
+      <main class="bg-white rounded-lg shadow-lg p-6">
+  <div class="flex flex-col md:flex-row gap-6">
+    <!-- Sidebar with image -->
+    <div class="md:w-1/3">
+      <img
+        class="w-full max-w-xs rounded-lg shadow-md mx-auto"
+        src="https://www.usatoday.com/gcdn/-mm-/059bfe144f24bbdcb3a9d0fe4c1b1a5a17aff6d5/c=0-1167-1881-3675/local/-/media/2018/06/01/USATODAY/USATODAY/636634199812559465-USATSI-10866071.jpg?width=660&height=880&fit=crop&format=pjpg&auto=webp"
+        alt="Profile picture"
+      />
+    </div>
+
+    <!-- Content section -->
+    <div class="md:w-2/3">
+      <h2 class="text-3xl font-bold text-gray-900 mb-2">Chris Marcello</h2>
+      <p class="text-lg text-gray-600 mb-6">Student at Mandeville High</p>
+
+      <!-- Interests section -->
+      <div class="border-2 border-gray-300 rounded-lg p-4">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">My Interests</h3>
+        <ul class="space-y-2">
+          <li class="bg-blue-100 px-3 py-2 rounded text-blue-800">LeBron James</li>
+          <li class="bg-pink-100 px-3 py-2 rounded text-pink-800">Bronny James</li>
+          <li class="bg-yellow-100 px-3 py-2 rounded text-yellow-800">Bryce James</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
     </div>
   </body>
 </html>
