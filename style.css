@@ -14,6 +14,7 @@ nav {
     margin: 0 auto;
     display: flex;
     padding; 10px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -42,11 +43,30 @@ a {
 }
 
 main {
-    background: rgb(245, 238, 219);
+    background: #860038;
     display: flex;
     margin-top: 20px;
 }
 .sidebar {
     margin-right: 25px;
     padding: 10px
+}
+
+.sidebar-img {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+#interests {
+    border: 4px #fdbb30 ridge;
+    padding 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 0px;
 }
