@@ -3,8 +3,9 @@ body {
 }
 
 canvas {
-  background-color: lightskyblue;
+  background-color: rgb(21, 156, 73);
   margin: 20px;
+  background-image: url(https://cdn.theatlantic.com/thumbor/AqUS5m9z3-LFGKlPcS65PpyBPQE=/0x141:3052x1858/1600x900/media/img/mt/2016/06/RTX2H3GZ/original.jpg)
 }
 
 img {

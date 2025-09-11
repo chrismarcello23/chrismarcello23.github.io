@@ -18,7 +18,7 @@ $(function () {
 
     // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
+    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "crimson"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
@@ -27,26 +27,26 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     toggleGrid();
+    // toggleGrid();
 
 
     // TODO 2 - Create Platforms
-    createPlatform(100, 700, 200, 100, "crimson")
-    createPlatform(500, 500, 69, 250, "crimson")
-    createPlatform(400, 600, 10, 10, "crimson")
-    createPlatform(900, 500, 100, 10, "crimson")
-    createPlatform(350, 500, 20, 20, "crimson")
-    createPlatform(100, 400, 100, 20, "crimson")
-    createPlatform(100, 0, 1, 500, "crimson")
-    createPlatform(350, 350, 100, 25, "crimson")
-    createPlatform(525, 300, 100, 25, "crimson")
-    createPlatform(750, 200, 100, 25, "crimson")
+    createPlatform(100, 700, 200, 100, "gold")
+    createPlatform(500, 500, 69, 250, "gold")
+    createPlatform(400, 600, 10, 10, "gold")
+    createPlatform(900, 500, 100, 10, "gold")
+    createPlatform(350, 500, 20, 20, "gold")
+    createPlatform(100, 400, 100, 20, "gold")
+    createPlatform(100, 0, 15, 500, "gold")
+    createPlatform(350, 350, 100, 25, "gold")
+    createPlatform(525, 300, 100, 25, "gold")
+    createPlatform(750, 200, 100, 25, "gold", 750, 950, 1)
 
 
     // TODO 3 - Create Collectables
     createCollectable("database", 950, 450, 0.1, 1)
     createCollectable("database", 120, 355, 0.1, 1)
-    createCollectable("database", 800, 150, 0.1, 1)
+    createCollectable("database", 800, 150, 0.1, 1, 800, 1000, 1)
 
     
     // TODO 4 - Create Cannons
