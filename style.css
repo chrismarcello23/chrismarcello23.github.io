@@ -11,8 +11,8 @@ body {
 }
 
 nav {
-    background: rgb(239, 80, 41)
-    margin 0 auto;
+    background: #FDBB30;
+    margin: 0 auto;
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
@@ -22,7 +22,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: #041E42;
     flex: 1;
     margin: 0;
 }
@@ -41,7 +41,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 
 main {
@@ -75,7 +75,7 @@ h2, h3 {
 
 /* Portfolio styles */
 .content h1 {
-    color: black;
+    color: #041E42;
 }
 
 #portfolio {
@@ -83,17 +83,17 @@ h2, h3 {
     padding-left: 0;
 }
 #portfolio li {
-    background: #fff;
+    background: #FDBB30;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px
 }
 #portfolio li:hover {
-    background:#eee;
+    background:#FDBB30;
 }
 #portfolio a {
     text-decoration: none;
-    color: #454545;
+    color: #041E42;
 }
 /* responsive web design */
 @media screen and (min-width: 120px) and (max-width: 1080px) {
